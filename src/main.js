@@ -186,6 +186,7 @@ function glowUp(){
     setTimeout(()=>  serviceList.classList.add('bg-white'), 16000);
     setTimeout(()=>  serviceList.classList.remove('bg-amber-50'), 16000);
     setTimeout(()=>  serviceList.classList.add('border-gray-100'), 16000);
+    setTimeout(()=>  serviceList.classList.add('dark:border-black'), 16000);
     setTimeout(()=>  serviceList.classList.add('rounded'), 16000);
     setTimeout(()=>  serviceList.classList.add('border-8'), 16000);
     setTimeout(()=>  serviceList.classList.add('font-salsa'), 16500);
