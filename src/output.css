@@ -694,6 +694,10 @@ video {
   height: fit-content;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .w-3\/5 {
   width: 60%;
 }
@@ -1263,18 +1267,8 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.contrast-50 {
-  --tw-contrast: contrast(.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .drop-shadow {
   --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.saturate-50 {
-  --tw-saturate: saturate(.5);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -1315,6 +1309,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:columns-2 {
     -moz-columns: 2;
          columns: 2;
@@ -1329,6 +1327,15 @@ video {
   .lg\:w-4\/5 {
     width: 80%;
   }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+}
+
+.dark\:border-black:where(.dark, .dark *) {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .dark\:border-orange-800:where(.dark, .dark *) {
@@ -1346,9 +1353,9 @@ video {
   border-color: rgb(17 94 89 / var(--tw-border-opacity));
 }
 
-.dark\:border-black:where(.dark, .dark *) {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+.dark\:bg-green-900:where(.dark, .dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 83 45 / var(--tw-bg-opacity));
 }
 
 .dark\:bg-neutral-950:where(.dark, .dark *) {
@@ -1394,16 +1401,6 @@ video {
 .dark\:bg-zinc-900:where(.dark, .dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
-}
-
-.dark\:bg-green-800:where(.dark, .dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 101 52 / var(--tw-bg-opacity));
-}
-
-.dark\:bg-green-900:where(.dark, .dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 83 45 / var(--tw-bg-opacity));
 }
 
 .dark\:bg-none:where(.dark, .dark *) {

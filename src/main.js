@@ -203,13 +203,13 @@ function addLightbulbs(){
     lightSwitch.classList.add('ease-in-out');  
     let light = document.createElement('img');
     light.setAttribute('id', 'light')
-    light.src = '../images/light.png';
+    light.src = '../images/light.svg';
     light.alt = 'yellow lightbulb icon';
     light.classList.add('h-6');
     lightSwitch.append(light);
     let blacklight = document.createElement('img');
     blacklight.setAttribute('id', 'blacklight')
-    blacklight.src = '../images/blacklight.png';
+    blacklight.src = '../images/blacklight.svg';
     blacklight.alt = 'teal lightbulb icon';
     blacklight.classList.add('h-6');
     blacklight.classList.add('hidden');
