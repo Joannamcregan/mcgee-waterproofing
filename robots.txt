@@ -1,4 +1,5 @@
 User-agent: *
-Disallow: 
+Disallow: /fonts/
+Disallow: /src/
 
 Sitemap: https://www.mcgeewaterproofing.com/sitemap.xml

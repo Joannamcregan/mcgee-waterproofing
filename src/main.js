@@ -219,7 +219,6 @@ function addLightbulbs(){
 }
 
 function toggleLight(){
-    console.log('toggle light called');
     body.classList.toggle('dark');
     document.getElementById('light').classList.toggle('hidden');
     document.getElementById('blacklight').classList.toggle('hidden');
