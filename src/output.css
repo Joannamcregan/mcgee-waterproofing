@@ -446,6 +446,22 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: Caveat;
+
+  font-weight: 400;
+
+  src: url(/fonts/caveat.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: Salsa;
+
+  font-weight: 400;
+
+  src: url(/fonts/salsa.woff2) format("woff2");
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -1326,10 +1342,6 @@ video {
 @media (min-width: 1024px) {
   .lg\:w-4\/5 {
     width: 80%;
-  }
-
-  .lg\:w-full {
-    width: 100%;
   }
 }
 

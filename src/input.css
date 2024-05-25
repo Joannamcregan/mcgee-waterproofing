@@ -3,3 +3,16 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+@layer base {
+    @font-face {
+      font-family: Caveat;
+      font-weight: 400;
+      src: url(/fonts/caveat.woff2) format("woff2");
+    }
+    @font-face {
+      font-family: Salsa;
+      font-weight: 400;
+      src: url(/fonts/salsa.woff2) format("woff2");
+    }
+  }
