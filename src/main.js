@@ -115,9 +115,7 @@ function glowUp(){
     setTimeout(()=>  akronBackground.classList.remove('to-amber-50'), 15500);    
     setTimeout(()=>  akronBackground.classList.add('shadow-md'), 16000);    
     setTimeout(()=>  akronBackground.classList.add('shadow-gray-700'), 16000);
-    setTimeout(()=>  akron.classList.remove('saturate-50'), 17000);
     setTimeout(()=>  akron.classList.remove('opacity-75'), 17000);
-    setTimeout(()=>  akron.classList.remove('contrast-60'), 17000);
     setTimeout(()=>  akron.classList.add('shadow-inner'), 17000);
     setTimeout(()=>  akron.classList.add('shadow-gray-700'), 17000);
     setTimeout(()=>  akronBackground.classList.remove('rotate-[0.5deg]'), 18000);
@@ -135,9 +133,7 @@ function glowUp(){
     setTimeout(()=>  mansfieldBackground.classList.remove('rotate-[0.3deg]'), 16000);
     setTimeout(()=>  mansfieldBackground.classList.add('shadow-md'), 16000);    
     setTimeout(()=>  mansfieldBackground.classList.add('shadow-gray-700'), 16000);
-    setTimeout(()=>  mansfield.classList.remove('saturate-50'), 17000);
     setTimeout(()=>  mansfield.classList.remove('opacity-75'), 17000);
-    setTimeout(()=>  mansfield.classList.remove('contrast-60'), 17000);
     setTimeout(()=>  mansfield.classList.add('shadow-inner'), 17000);
     setTimeout(()=>  mansfield.classList.add('shadow-gray-700'), 17000);
     //frame cleveland picture
@@ -154,9 +150,7 @@ function glowUp(){
     setTimeout(()=>  clevelandBackground.classList.remove('-rotate-[0.5deg]'), 17000);
     setTimeout(()=>  clevelandBackground.classList.add('shadow-md'), 17000);    
     setTimeout(()=>  clevelandBackground.classList.add('shadow-gray-700'), 17000);
-    setTimeout(()=>  cleveland.classList.remove('saturate-50'), 18000);
     setTimeout(()=>  cleveland.classList.remove('opacity-75'), 18000);
-    setTimeout(()=>  cleveland.classList.remove('contrast-60'), 18000);
     setTimeout(()=>  cleveland.classList.add('shadow-inner'), 18000);
     setTimeout(()=>  cleveland.classList.add('shadow-gray-700'), 18000);
     //frame house picture
@@ -173,9 +167,7 @@ function glowUp(){
     setTimeout(()=>  houseBackground.classList.remove('-rotate-[-0.5deg]'), 16000);
     setTimeout(()=>  houseBackground.classList.add('shadow-md'), 16000);    
     setTimeout(()=>  houseBackground.classList.add('shadow-gray-700'), 16000);
-    setTimeout(()=>  house.classList.remove('saturate-50'), 17000);
     setTimeout(()=>  house.classList.remove('opacity-75'), 17000);
-    setTimeout(()=>  house.classList.remove('contrast-50'), 17000);
     setTimeout(()=>  house.classList.add('shadow-inner'), 17000);
     setTimeout(()=>  house.classList.add('shadow-gray-700'), 17000);
     //make services list white board
